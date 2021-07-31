@@ -1,0 +1,80 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 62.5%;
+	font: inherit;
+	vertical-align: baseline;
+  text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	display: grid;
+  height: 100vh;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-pink: hsl(322, 100%, 66%);
+  --clr-light-pink: hsl(321, 100%, 78%);
+  --clr-light-red: hsl(0, 100%, 63%);
+  --clr-very-dark-cyan: hsl(192, 100%, 9%);
+  --clr-very-pale-blue: hsl(207, 100%, 98%);
+
+  --ff-poppins: font-family: 'Poppins', sans-serif;;
+  --ff-open-sans: font-family: 'Open Sans', sans-serif;;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 11.4rem 40rem 60rem 40rem 5fr;
+
+  grid-template-areas:
+    'header header' 
+    'left right'
+  ;
+
+	width: 100%;
+  margin: 0 auto;
+}
+
+body, button, input, textarea {
+  font-size: clamp(6px, .8rem, 2vw);
+  font-family: 'Open Sans', sans-serif;
+}
