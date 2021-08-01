@@ -14,7 +14,6 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 62.5%;
 	font: inherit;
 	vertical-align: baseline;
   text-decoration: none;
@@ -25,7 +24,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	display: grid;
+	display: flex;
   height: 100vh;
 	line-height: 1;
 }
@@ -56,8 +55,7 @@ table {
   --clr-very-dark-cyan: hsl(192, 100%, 9%);
   --clr-very-pale-blue: hsl(207, 100%, 98%);
 
-  --ff-poppins: font-family: 'Poppins', sans-serif;;
-  --ff-open-sans: font-family: 'Open Sans', sans-serif;;
+	font-size: 62.5%;
 }
 
 .content {
@@ -66,7 +64,7 @@ table {
   grid-template-rows: 11.4rem 40rem 60rem 40rem 5fr;
 
   grid-template-areas:
-    'header header' 
+    'full full' 
     'left right'
   ;
 
@@ -75,6 +73,25 @@ table {
 }
 
 body, button, input, textarea {
-  font-size: clamp(6px, .8rem, 2vw);
+  font-size: clamp(10px, 1.2rem, 2vw);
   font-family: 'Open Sans', sans-serif;
+	border-style: none;
+}
+
+h1, h2, h3 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+button, .outlined {
+	transition: filter .3s ease;
+	cursor: pointer;
+}
+
+button:hover, .button:hover {
+  filter: opacity(70%);
 }
