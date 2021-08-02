@@ -45,6 +45,10 @@ main h1, p {
   margin-bottom: 3rem;
 }
 
+main button {
+  margin-bottom: 8rem;
+}
+
 h1 {
   color: var(--clr-very-dark-cyan);
   font-size: clamp(40px, 5vw, 2.8rem);
@@ -54,4 +58,13 @@ p {
   font-size: clamp(15px, 1.6rem, 2vw);
   color: var(--clr-very-dark-cyan);
   line-height: 2.5rem;
+}
+
+@media (max-width: 1000px) {
+  main button {
+    margin-bottom: 12rem;
+  }
+  main img {
+    width: 80%;
+  }
 }
