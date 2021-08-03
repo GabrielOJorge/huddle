@@ -53,7 +53,7 @@ table {
   --clr-light-pink: hsl(321, 100%, 78%);
   --clr-light-red: hsl(0, 100%, 63%);
   --clr-very-dark-cyan: hsl(192, 100%, 9%);
-  --clr-very-pale-blue: hsl(207, 100%, 98%);
+  --clr-very-pale-blue: #F6FBFF;
 
 	font-size: 62.5%;
 }
@@ -61,11 +61,12 @@ table {
 .content {
   display: grid;
   grid-template-columns: 50% 50%;
-	/* grid-template-rows: 11.4rem 130rem 40rem; */
+	grid-template-rows: 11.4rem 130rem 5fr;
 
   grid-template-areas:
-    'full full' 
-    'left right'
+    'full full'
+		'left right'
+		'full1 full1'
   ;
 
 	width: 100%;
@@ -90,7 +91,7 @@ p {
 button {
   background-color: var(--clr-pink);
   padding: 1.5rem 6rem;
-  color: var(--clr-very-pale-blue);
+  color: #fff;
   font-size: 1.4rem;
   font-weight: 700;
   border-radius: 3rem;

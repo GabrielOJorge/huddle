@@ -1,0 +1,11 @@
+.grow-section {
+  grid-area: full1;
+  background-color: var(--clr-very-pale-blue);
+  display: flex;
+  align-items: center;
+}
+
+.grow-section .illustration {
+  grid-area: right;
+  width: 80%;
+}
