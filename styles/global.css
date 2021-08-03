@@ -60,13 +60,13 @@ table {
 
 .content {
   display: grid;
-  grid-template-columns: 50% 50%;
-	grid-template-rows: 11.4rem 130rem 5fr;
+  grid-template-columns:  100%;
+	grid-template-rows: 161rem 5fr;
 
   grid-template-areas:
-    'full full'
-		'left right'
-		'full1 full1'
+    'full'
+		'grow'
+		'footer'
   ;
 
 	width: 100%;

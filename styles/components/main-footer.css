@@ -1,10 +1,10 @@
-.grow-section {
-  grid-area: grow;
+/* .main-footer {
+  grid-area: footer;
   background-color: var(--clr-very-pale-blue);
   display: flex;
   align-items: center;
 }
 
-.grow-section .illustration {
+.main-footer .illustration {
   width: 80%;
-}
+} */
