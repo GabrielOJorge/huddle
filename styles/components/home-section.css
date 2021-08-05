@@ -113,8 +113,4 @@ main button {
   .stats .container div:nth-child(1) {
     margin-bottom: 10rem;
   }
-
-  .stats .container div:nth-child(2) {
-    margin-bottom: 5rem;
-  }
 }

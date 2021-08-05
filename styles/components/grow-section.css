@@ -2,9 +2,81 @@
   grid-area: grow;
   background-color: var(--clr-very-pale-blue);
   display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
+  text-align: center;
 }
 
 .grow-section .illustration {
-  width: 80%;
+  width: 70%;
+}
+
+.grow-section .bg-top-mobile-1 {
+  position: relative;
+  top: -10rem;
+}
+
+.grow-section .bg-bottom-mobile-1 {
+  position: relative;
+  bottom: -5rem;
+}
+
+.bg-section-top-desktop-1 {
+  position: relative;
+  top: -57.4rem;
+}
+
+.bg-section-bottom-desktop-1 {
+  position: relative;
+  bottom: 16.5rem;
+}
+
+.grow-section h2 {
+  font-size: clamp(3rem, 3rem, 2vw);
+  color: var(--clr-very-dark-cyan);
+  padding: 2rem 0;
+}
+
+.grow-section p {
+  width: 32rem;
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+
+@media (min-width: 700px) {
+  .grow-section {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: start;
+  }
+
+  .grow-section .txt {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .grow-section .illustration {
+    width: 50rem;
+  }
+
+  .grow-section p {
+    width: 43rem;
+    font-size: clamp(1.1rem, 1.4rem, 2vw);
+  }
+}
+
+@media (max-width: 700px) and (min-width: 376px) {
+  .bg-top-mobile-1.-sr-only, .bg-bottom-mobile-1.-sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
 }

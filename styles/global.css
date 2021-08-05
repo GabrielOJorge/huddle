@@ -61,7 +61,7 @@ table {
 .content {
   display: grid;
   grid-template-columns:  100%;
-	grid-template-rows: 161rem 5fr;
+	grid-template-rows: 185rem 5fr;
 
   grid-template-areas:
     'full'
