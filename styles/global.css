@@ -59,16 +59,9 @@ table {
 }
 
 .content {
-  display: grid;
-  grid-template-columns:  100%;
-	grid-template-rows: 185rem 5fr;
-
-  grid-template-areas:
-    'full'
-		'grow'
-		'footer'
-  ;
-
+  display: flex;
+	flex-direction: column;
+  
 	width: 100%;
   margin: 0 auto;
 }
