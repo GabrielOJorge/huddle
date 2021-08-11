@@ -1,5 +1,4 @@
 .home-section {
-  grid-area: full;
   width: max(36.5rem, 100%);
 }
 
@@ -54,6 +53,7 @@ main button {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  margin-bottom: 20rem;
 }
 
 .stats img {
