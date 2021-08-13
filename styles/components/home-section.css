@@ -11,6 +11,7 @@ header {
 }
 
 .outlined {
+  font-size: clamp(1.2rem, 1.5rem, 2vw);
   background-color: #fff;
   color: var(--clr-light-pink);
   border: 1px solid var(--clr-light-pink);
@@ -28,15 +29,15 @@ main {
 }
 
 main h1 {
-  width: 80%;
+  width: 70%;
   color: var(--clr-very-dark-cyan);
-  font-size: clamp(2rem, 5rem, 7vw);
+  font-size: clamp(2rem, 4rem, 7vw);
   line-height: 6rem;
 }
 
 main p {
   width: 50rem;
-  font-size: clamp(1.5rem, 1.6rem, 2vw);
+  font-size: clamp(1.4rem, 1.6rem, 2vw);
   color: var(--clr-very-dark-cyan);
   line-height: 2.5rem;
 }
@@ -77,6 +78,10 @@ main button {
 @media (max-width: 750px) {
   header img {
     width: 35%;
+  }
+
+  .outlined {
+    padding: .3rem 1rem;
   }
 }
 

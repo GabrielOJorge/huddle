@@ -8,10 +8,19 @@
 }
 
 .main-section.-white {
-  display: flex;
-  flex-direction: row;
   background-color: #fff;
   margin-bottom: 8rem;
+}
+
+.main-section.-button  {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding-bottom: 8rem;
+}
+
+.main-section.-button h2 {
+  margin-bottom: 1rem;
 }
 
 .main-section .illustration {
@@ -39,6 +48,10 @@
 }
 
 @media (max-width: 376px) {
+  .main-section {
+    padding: 6rem 0;
+  }
+
   .illustration {
     margin-bottom: 8rem;
   }
@@ -47,7 +60,6 @@
 @media (min-width: 1200px) {
   .main-section {
     display: flex;
-    flex-direction: row-reverse;
     text-align: start;
     justify-content: space-evenly;
   }
@@ -69,15 +81,17 @@
 }
 
 @media (max-width: 1200px) and (min-width: 751px) {
+  .main-section .illustration {
+    width: 45%;
+  }
+}
+
+@media (min-width: 751px) {
   .main-section {
     display: flex;
     flex-direction: row-reverse;
     text-align: start;
     justify-content: space-evenly;
-  }
-
-  .main-section .illustration {
-    width: 50%;
   }
 }
 
@@ -117,5 +131,14 @@
     clip: rect(0, 0, 0, 0);
     white-space: nowrap;
     border-width: 0;
+  }
+
+  button {
+    padding: 1.5rem 5rem;
+  }
+
+  .main-section.-white {
+    flex-direction: column-reverse;
+
   }
 }
