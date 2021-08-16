@@ -67,7 +67,6 @@ table {
 }
 
 body, button, input, textarea {
-  font-size: clamp(10px, 1.2rem, 2vw);
   font-family: 'Open Sans', sans-serif;
 	border-style: none;
 }

@@ -1,0 +1,42 @@
+.main-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--clr-very-dark-cyan);
+  color: #fff;
+}
+
+.main-footer .txt {
+  width: 90%;
+}
+
+.main-footer h2 {
+  font-size: clamp(2rem, 2.5rem, 2vw);
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+}
+
+.main-footer p {
+  font-size: clamp(1.4rem, 1.5rem, 2vw);
+  line-height: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.main-footer form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+input[type="email"] {
+  border-radius: .5rem;
+  padding: 1.5rem 16rem 1.5rem 1rem;
+  margin-bottom: 1.2rem;
+}
+
+#sub {
+  font-size: clamp(1.4rem, 1.6rem, 2vw);
+  border-radius: .5rem;
+  padding: 1.2rem 3.5rem;
+  box-shadow: none;
+}
