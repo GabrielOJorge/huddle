@@ -23,6 +23,10 @@
   margin-bottom: 1rem;
 }
 
+.main-section.-button button {
+  margin-bottom: 5rem;
+}
+
 .main-section .illustration {
   width: 70%;
 }
@@ -49,7 +53,7 @@
 
 @media (max-width: 376px) {
   .main-section {
-    padding: 6rem 0;
+    padding: 6rem 0 10rem 0;
   }
 
   .illustration {
