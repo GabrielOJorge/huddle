@@ -50,7 +50,7 @@ table {
 
 :root {
   --clr-pink: hsl(322, 100%, 66%);
-  --clr-light-pink: hsl(321, 100%, 78%);
+  --clr-light-pink: hsl(321, 100%, 77%);
   --clr-light-red: hsl(0, 100%, 63%);
   --clr-very-dark-cyan: hsl(192, 100%, 9%);
   --clr-very-pale-blue: #F6FBFF;
@@ -98,7 +98,4 @@ button, .outlined {
 button:hover, .button:hover {
   filter: opacity(70%);
 }
-
-#sub:hover {
-	background: hsl(321, 100%, 78%);
-}
+asfasd

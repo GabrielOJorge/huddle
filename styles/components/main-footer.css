@@ -40,12 +40,13 @@ input[type="email"] {
   padding: 1.2rem 3.5rem;
   box-shadow: none;
   margin-bottom: 10rem;
-  transition: background .5s ease-in-out;
+  transition: background .3s ease-in-out;
 }
 
-/* #sub:hover {
-  color: var(--clr-light-pink);
-} */
+#sub:hover {
+	filter: brightness(101%);
+	background: var(--clr-light-pink);
+}
 
 .main-footer .info svg {
   margin-bottom: 1.5rem;
