@@ -6,14 +6,14 @@
   color: #fff;
 }
 
-.main-footer .txt {
+.main-footer .container {
   width: 90%;
 }
 
 .main-footer h2 {
   font-size: clamp(2rem, 2.5rem, 2vw);
   margin-top: 5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .main-footer p {
@@ -39,4 +39,54 @@ input[type="email"] {
   border-radius: .5rem;
   padding: 1.2rem 3.5rem;
   box-shadow: none;
+  margin-bottom: 10rem;
+  transition: background .5s ease-in-out;
+}
+
+/* #sub:hover {
+  color: var(--clr-light-pink);
+} */
+
+.main-footer .info svg {
+  margin-bottom: 1.5rem;
+  fill: #fff;
+  color: #fff;
+}
+
+.main-footer .info p {
+  margin-bottom: 3.5rem;
+}
+
+.main-footer .contact {
+  display: flex;
+  align-items: flex-start;
+}
+
+.main-footer .contact img {
+  padding-right: 1rem;
+}
+
+.main-footer .contact p {
+  line-height: initial;
+}
+
+.main-footer div:nth-child(2) {
+  margin-bottom: 1.5rem;
+}
+
+ion-icon {
+  color: #fff;
+  transition: color .5s ease;
+}
+
+ion-icon:hover {
+  color: #2AA9E0;
+}
+
+.main-footer .media {
+  margin-bottom: 3.5rem;
+}
+
+.main-footer .media .insta {
+  padding: 0 1rem;
 }
