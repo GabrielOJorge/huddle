@@ -28,6 +28,8 @@
 }
 
 input[type="email"] {
+  font-family: 'Opens Sans', sans-serif;
+  font-size: clamp(1.4rem, 1.6rem, 2vw);
   border-radius: .5rem;
   width: 100%;
   padding: 1.5rem;
@@ -85,7 +87,8 @@ ion-icon:hover {
   color: #2AA9E0;
 }
 
-.main-footer .media {
+.main-footer .social {
+  display: flex;
   margin-bottom: 3.5rem;
 }
 
