@@ -96,6 +96,10 @@ ion-icon:hover {
   padding: 0 1rem;
 }
 
+.attribution {
+  text-align: center;
+}
+
 .attribution a {
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
