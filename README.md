@@ -27,8 +27,8 @@ This is a solution to the [Huddle landing page with curved sections challenge on
 
 Users should be able to:
 
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
+- View the optimal layout for the site depending on their device's screen size;
+- See hover states for all interactive elements on the page.
 
 ### Screenshot
 
@@ -36,7 +36,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Huddle](https://gabrielojorge.github.io/huddle/)
+- Live Site URL: [Huddle](https://gabrielojorge.github.io/huddle/).
 
 ## Style Guide
 
@@ -44,52 +44,52 @@ Users should be able to:
 
 The designs were created to the following widths:
 
-- Mobile: 375px
-- Desktop: 1440px
+- Mobile: 375px;
+- Desktop: 1440px.
 
 ### Colors
 
 #### Primary
 
-- Pink: hsl(322, 100%, 66%)
-- Light Pink: hsl(321, 100%, 78%)
-- Light Red: hsl(0, 100%, 63%)
+- Pink: hsl(322, 100%, 66%);
+- Light Pink: hsl(321, 100%, 78%);
+- Light Red: hsl(0, 100%, 63%).
 
 #### Neutral
 
-- Very Dark Cyan: hsl(192, 100%, 9%)
-- Very Pale Blue: hsl(207, 100%, 98%)
+- Very Dark Cyan: hsl(192, 100%, 9%);
+- Very Pale Blue: hsl(207, 100%, 98%).
 
 ### Typography
 
 #### Headings
 
-- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
-- Weights: 700
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins);
+- Weights: 700.
 
 #### Body
 
-- Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
-- Weights: 400, 600, 700
+- Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans);
+- Weights: 400, 600, 700.
 
 ### Icons
 
 For the social icons, you can use a font icon library. Some suggestions can be found below:
 
-- [Font Awesome](https://fontawesome.com/)
-- [IcoMoon](https://icomoon.io/)
-- [Ionicons](https://ionicons.com/)
+- [Font Awesome](https://fontawesome.com/);
+- [IcoMoon](https://icomoon.io/);
+- [Ionicons](https://ionicons.com/).
 
 
 ## My process
 
 ### Built with
 
-- HTML5
-- CSS
-- Flexbox
-- Mobile-first workflow
+- HTML5;
+- CSS;
+- Flexbox;
+- Mobile-first workflow.
 
 ## Author
 
-- Website - [Gabriel O. Jorge](https://gabrielojorge.github.io/Portifolio/)
+- Website - [Gabriel O. Jorge](https://gabrielojorge.github.io/Portifolio/).
