@@ -25,41 +25,45 @@ Users should be able to:
 
 ![](./design/desktop-preview.jpg)
 
-# Style Guide
+### Links
 
-## Layout
+- Live Site URL: [Huddle](https://gabrielojorge.github.io/huddle/)
+
+## Style Guide
+
+### Layout
 
 The designs were created to the following widths:
 
 - Mobile: 375px
 - Desktop: 1440px
 
-## Colors
+### Colors
 
-### Primary
+#### Primary
 
 - Pink: hsl(322, 100%, 66%)
 - Light Pink: hsl(321, 100%, 78%)
 - Light Red: hsl(0, 100%, 63%)
 
-### Neutral
+#### Neutral
 
 - Very Dark Cyan: hsl(192, 100%, 9%)
 - Very Pale Blue: hsl(207, 100%, 98%)
 
-## Typography
+### Typography
 
-### Headings
+#### Headings
 
 - Family: [Poppins](https://fonts.google.com/specimen/Poppins)
 - Weights: 700
 
-### Body
+#### Body
 
 - Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
 - Weights: 400, 600, 700
 
-## Icons
+### Icons
 
 For the social icons, you can use a font icon library. Some suggestions can be found below:
 
@@ -67,9 +71,6 @@ For the social icons, you can use a font icon library. Some suggestions can be f
 - [IcoMoon](https://icomoon.io/)
 - [Ionicons](https://ionicons.com/)
 
-### Links
-
-- Live Site URL: [Huddle](https://gabrielojorge.github.io/huddle/)
 
 ## My process
 
